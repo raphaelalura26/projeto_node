@@ -1,0 +1,10 @@
+{
+  "name": "projeto_node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "cy2": "^4.0.9",
+    "lodash": "4.17.20",
+    "hot-formula-parser": "3.0.0"
+  }
+}
