@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "cy2": "^4.0.9",
-    "hot-formula-parser": "3.0.0",
+    "cy2": "^4.0.0",
+    "hot-formula-parser": "^3.0.2",
     "lodash": "^4.17.20",
     "react-server-dom-webpack": "^19.2.0"
   }
