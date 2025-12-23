@@ -4,6 +4,6 @@
   "main": "index.js",
   "dependencies": {
     "cy2": "^4.0.9",
-    "hot-formula-parser": "3.0.0"
+    "hot-formula-parser": "3.0.1"
   }
 }
