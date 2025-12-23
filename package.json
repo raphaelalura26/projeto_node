@@ -5,7 +5,7 @@
   "dependencies": {
     "cy2": "^4.0.9",
     "lodash": "4.17.20",
-    "express": "^4.15.0",
+    "express": "^5.2.1",
     "hot-formula-parser": "3.0.0"
   }
 }
