@@ -1,0 +1,27 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-c5e6471806956b961c4ba4c57d03d466d0f23e1e29d1dba51debbe9130c3db0e",
+  "author": "Auditor",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2020-28500"
+      },
+      "products": [
+        {
+          "@id": "myApp",
+          "subcomponents": [
+            {
+              "@id": "pkg:npm/lodash@4.17.20"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2025-12-23T22:53:15.880072609Z"
+    }
+  ],
+  "timestamp": "2025-12-23T22:53:15Z"
+}

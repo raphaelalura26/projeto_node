@@ -1,0 +1,80 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "merged-vex-5a2162be35fbcc1bf41b496c785cbf490e4a7517ae890d8414ef04fc0fd43afd",
+  "author": "Unknown Author",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2020-28500"
+      },
+      "products": [
+        {
+          "@id": "myApp",
+          "subcomponents": [
+            {
+              "@id": "pkg:npm/lodash@4.17.20"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "timestamp": "2025-12-23T22:53:15.880072609Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-28500"
+      },
+      "products": [
+        {
+          "@id": "myApp",
+          "subcomponents": [
+            {
+              "@id": "pkg:npm/lodash@4.17.21"
+            }
+          ]
+        }
+      ],
+      "status": "fixed",
+      "timestamp": "2025-12-23T22:57:10.454986668Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-23337"
+      },
+      "products": [
+        {
+          "@id": "myApp",
+          "subcomponents": [
+            {
+              "@id": "pkg:npm/lodash@4.17.20"
+            }
+          ]
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Exploited internally by Red Team; immediate patch to lodash 4.17.21 required.",
+      "action_statement_timestamp": "2025-12-23T19:54:38.64839148-03:00",
+      "timestamp": "2025-12-23T22:54:38.64839148Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-23337"
+      },
+      "products": [
+        {
+          "@id": "myApp",
+          "subcomponents": [
+            {
+              "@id": "pkg:npm/lodash@4.17.21"
+            }
+          ]
+        }
+      ],
+      "status": "fixed",
+      "timestamp": "2025-12-23T22:57:07.456691809Z"
+    }
+  ],
+  "timestamp": "2025-12-23T22:57:53Z"
+}
