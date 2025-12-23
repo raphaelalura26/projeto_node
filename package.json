@@ -4,8 +4,9 @@
   "main": "index.js",
   "dependencies": {
     "cy2": "^4.0.9",
-    "lodash": "4.17.20",
     "express": "^4.15.0",
-    "hot-formula-parser": "3.0.0"
+    "hot-formula-parser": "3.0.0",
+    "lodash": "4.17.20",
+    "react-server-dom-webpack": "^19.2.0"
   }
 }
