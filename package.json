@@ -5,6 +5,6 @@
   "dependencies": {
     "express": "^4.15.0",
     "hot-formula-parser": "^3.0.2",
-    "lodash": "^4.17.21"
+    "lodash": "4.17.20"
   }
 }
