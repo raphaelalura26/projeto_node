@@ -22,9 +22,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # - name: Run NPM Audit
-      #   run: npm audit --audit-level=high
-
       - name: 'Dependency Review'
         if: github.event_name == 'pull_request'
         uses: actions/dependency-review-action@v4
